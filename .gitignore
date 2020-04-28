@@ -5,7 +5,7 @@
 /node_modules/
 #
 # Отладочные журналы npm
-npm-debug.log*
+*.log
 # Зависимости проекта
 node_modules
 # Атрибуты папки OSX
@@ -42,5 +42,4 @@ $RECYCLE.BIN/
 #
 # Windows shortcuts
 *.lnk
-#
 # End of https://www.gitignore.io/api/windows
