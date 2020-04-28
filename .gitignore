@@ -3,3 +3,13 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+
+# Отладочные журналы npm
+npm-debug.log*
+# Зависимости проекта
+node_modules
+# Атрибуты папки OSX
+.DS_Store
+# Временные файлы
+*.tmp
+*~
