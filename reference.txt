@@ -1,0 +1,47 @@
+--GIT--
+
+git init
+
+git status
+
+git config --global user.name "UserName"
+git config --global user.email "User@email"
+git config --list
+
+git add / -A
+
+git commit -m "comment"
+
+git push/pull
+
+--npm--
+
+node -v
+npm -v
+
+npm init #for check dependencies - create package.json # -y yes all questions
+
+npm install # --save или -- saveDev for write in package.json; -g #global install
+npm install # without key or package restor addictions
+
+--Gulp--
+
+npm install -g gulp #maybe need $sudo
+npm install --save-dev gulp #local install after global
+
+gulp -v
+_____________________________________
+create gulpfile.js
+
+	const gulp = require('gulp');
+	// Зависимости Gulp будут здесь
+
+	gulp.task('default', function(){
+		// Задачи Gulp будут здесь
+	};)
+_____________________________________
+
+"babel-preset-es2015": "^6.24.1",
+
+
+
