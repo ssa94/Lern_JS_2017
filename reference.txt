@@ -1,5 +1,6 @@
 --GIT--
 
+#Инициализация хранилища
 git init
 
 git status
