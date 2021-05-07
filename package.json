@@ -17,7 +17,7 @@
 	},
 	"homepage": "https://github.com/ssa94/Lern_JS_2017#readme",
 	"dependencies": {
-		"underscore": "^1.10.2"
+		"underscore": "^1.12.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.9.0",
